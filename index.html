@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>My Git Test Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yernur Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      background: #1e293b;
+      padding: 50px;
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .section {
+      margin-top: 30px;
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    h2 {
+      color: #38bdf8;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: #334155;
+      padding: 12px 18px;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      color: #94a3b8;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Привет, GitHub!</h1>
-  <p>Это мой первый мини-сайт через Git.</p>
+
+  <div class="container">
+
+    <div class="hero">
+      <h1>Привет, я Ернур 👋</h1>
+      <p>
+        Я студент и начинающий software developer. Изучаю веб-разработку,
+        GitHub, frontend и backend. Этот сайт — мой первый проект,
+        опубликованный через GitHub Pages.
+      </p>
+      <a class="btn" href="https://github.com/Yernur-creator" target="_blank">Мой GitHub</a>
+    </div>
+
+    <div class="section">
+      <h2>Обо мне</h2>
+      <p>
+        Я развиваю навыки программирования и учусь создавать простые,
+        красивые и полезные сайты. Сейчас мне важно научиться работать
+        в команде, использовать GitHub и участвовать в хакатонах.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Мои навыки</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript basics</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">VS Code</div>
+        <div class="skill">Django basics</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Цель</h2>
+      <p>
+        Моя цель — стать сильнее в веб-разработке, научиться уверенно
+        работать с проектами и быть полезным участником команды на хакатоне.
+      </p>
+    </div>
+
+    <footer>
+      © 2026 Yernur Portfolio
+    </footer>
+
+  </div>
+
 </body>
 </html>
